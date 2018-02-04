@@ -67,12 +67,12 @@ span{
     color: #1ac056;
 }
 
-h1{
+#main-header > #main-header-content > h1{
     font-family: 'roboto' , sans-serif;
     font-size: 4em;
 }
 
-h2{
+#main-header > #main-header-content > h2{
     font-family: 'roboto' , sans-serif;
     font-size: 2em;
     padding: 0 0 35px 0;
