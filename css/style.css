@@ -7,7 +7,6 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
-    background-color: #19820B;
     margin: 0;
 }
 
@@ -78,28 +77,49 @@ h2{
     padding: 0 0 35px 0;
 }
 
-#about {
+section#about {
     padding: 0 80px 100px;
-    background-color: #f9fcfe;
+    background-color: whitesmoke;
     height: 100vh;
     padding: 35px;
+    border-bottom: solid 10px grey;
 	
 }
 
-figure{
+section#about > figure{
     margin: 0;
     float: left;
     width: 50%;
     text-align: center;
 }
 
-article{
+#about > article{
     float: left;
     width: 50%;
     
 }
 
 
-figure img{
+#about > figure > img{
     height: 350px;
+    border: 14px solid #fff;
+    border-radius: 15px;
+}
+
+#skills > p{
+	text-align: center;
+    padding: 0 30px 0;
+}
+
+
+section#skills{
+    text-align: center;
+}
+
+section#skills > #skills-icons > .icons {
+    display: inline-block;
+}
+
+section#skills > #skills-icons > .icons > figcaption{
+    text-transform: uppercase;
 }
