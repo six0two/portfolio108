@@ -69,5 +69,37 @@ span{
 
 h1{
     font-family: 'roboto' , sans-serif;
-    font-size: 75px;
+    font-size: 4em;
+}
+
+h2{
+    font-family: 'roboto' , sans-serif;
+    font-size: 2em;
+    padding: 0 0 35px 0;
+}
+
+#about {
+    padding: 0 80px 100px;
+    background-color: #f9fcfe;
+    height: 100vh;
+    padding: 35px;
+	
+}
+
+figure{
+    margin: 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+article{
+    float: left;
+    width: 50%;
+    
+}
+
+
+figure img{
+    height: 350px;
 }
