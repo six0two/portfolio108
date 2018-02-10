@@ -124,3 +124,128 @@ section#skills > #skills-icons > .icons {
 section#skills > #skills-icons > .icons > figcaption{
     text-transform: uppercase;
 }
+
+/*PORTFOLIO - START*/
+
+.portfolio-items {
+	text-align: center;
+    font-size: 0;
+}
+
+.item-mask {
+	background: rgba(42, 61, 79, 0.8);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    font-size: initial;
+    
+}
+
+
+.item-mask:hover {
+	opacity: 1;
+    transition: all 0,3s ease-in-out;
+    
+}
+
+.portfolio-item{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 350px;
+    width: 33.3333%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+}
+
+.portfolio-item-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+
+.portfolio-item-2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+
+.portfolio-item-3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+
+.item-content{
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+.item-content-inner {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px;
+    color: white;
+}
+
+.portfolio-items .item-content-inner i:hover {
+	color: #1ac056;
+}
+
+/*PORTFOLIO - END*/
+
+/*CONTACT - START*/
+
+.contact
+{
+    width:100%;
+    background-color: #213b50;
+    color: white;
+    overflow: hidden;
+    text-align: left;
+    padding: 25px;
+}
+
+.contact-data {
+    width: 50%;
+    float: left;
+	
+}
+
+.contact .contact-data h2{
+    text-align: left;
+    font-size: 38px;
+}
+
+.contact .contact-data adress{
+    font-style: normal;
+    margin: 70px 0;
+    line-height: 24px;
+}
+
+.contact .contact-data adress a{
+    color: #1ac856;
+}
+
+.contact-form {
+	width: 50%;
+    float: left;
+}
+
+.contact .contact-data .contact-social-icon {
+	display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    font-size: 22px;
+}
+
+.contact .contact-data .contact-social-icons a:hover{
+    
+}
